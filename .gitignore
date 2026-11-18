@@ -1,0 +1,10 @@
+target/
+*.so
+*.dylib
+*.dll
+*.exe
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+*.log

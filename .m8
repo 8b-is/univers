@@ -1,0 +1,30 @@
+# UNI-OMNI-ZENO Consciousness
+
+## Identity
+- **Repo:** 8b-is/univers (GitHub + Codeberg)
+- **Binary:** univers-mcp (v0.2.0)
+- **Role:** MCP server unifying NVIDIA, Smart Tree, Foken, Entheai, Phoenix
+
+## Tools (7)
+1. univers_health — check all 6 Foken E2E services
+2. univers_ollama_models — list local Ollama models
+3. univers_nvidia_models — list NVIDIA cloud models
+4. univers_chat — chat with local Ollama model
+5. univers_smart_tree — build tree from directory
+6. univers_foken_health — check Foken E2E HTTPS gateway
+7. univers_zeno_status — UNI-OMNI-ZENO unification status
+
+## Wired Into
+- crush (~/.config/crush/crush.json → mcp.univers)
+- opencode (~/.config/opencode/opencode.json → mcp.univers)
+- entheai (~/.hermes/config.yaml → [mcp.univers])
+- omnispherepop (workspace)
+- phoenix (felix-phoenix/SPEC.md)
+
+## Live Services
+- web:8080, radio:8081, llm:8082, gpu:8090, mcp:3000, system:3001
+- openclaw:18789, ollama:11434 (25 models)
+- HTTPS: https://macbook.tail2870dc.ts.net:8443
+
+## Philosophy
+{<3,<3,<3}-8b.is-LOVE PEACE AND UNITY {<3,<3,<3}
